@@ -3,3 +3,8 @@
 *.drawio
 *.terraform.lock.hcl
 */.terraform/*
+*/*.tfstate
+*/*.tfstate.backup
+*/*.drawio
+*/*.terraform.lock.hcl
+
