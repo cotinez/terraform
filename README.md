@@ -1,12 +1,3 @@
 # terraform
-## terraform001(done!!)
-An AWS VPC with private and public subnets
+## This directory contains terraform codes in HCL language for along with the corresponding diagram/topology
 
-## terraform002(done!!)
-Private EC2 instances managed with SSM (without internet access)
-
-## terraform003(in progress ...)
-VPC designed with NAT Gateway fully resilient
-
-## terraform004(in progress ...)
-Controlling access to private buckects 
