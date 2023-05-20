@@ -13,3 +13,7 @@ resource "aws_internet_gateway" "VPC1-igw" {
     Name = "VPC1-igw"
   }
 }
+
+output "VPC1_id"{
+	value = aws_vpc.VPC1.id
+}

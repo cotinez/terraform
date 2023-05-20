@@ -1,0 +1,7 @@
+This is a typical base network in AWS cloud to host a highly available in a single region (us-east-1) multi-tiers application.
+
+There is 3 common layers (Web, Application and database) and a fourth for an addition layer if needed.
+
+Note: 
+- This can be easily extended to additional availability zones in the same region.
+- For global availability, it's possible to deploy the same network in a different region and failover between them using Route53.

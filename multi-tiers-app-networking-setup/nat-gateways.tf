@@ -47,3 +47,17 @@ resource "aws_nat_gateway" "us-east-1c-nat-gw" {
 
   depends_on = [aws_internet_gateway.VPC1-igw]
 }
+
+
+
+# NAT GATEWAYs IDs
+
+output "us-east-1a-nat-gw-id"{
+	value = aws_nat_gateway.us-east-1a-nat-gw.id
+}
+output "us-east-1b-nat-gw-id"{
+	value = aws_nat_gateway.us-east-1b-nat-gw.id
+}
+output "us-east-1c-nat-gw-id"{
+	value = aws_nat_gateway.us-east-1c-nat-gw.id
+}
